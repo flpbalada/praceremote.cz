@@ -1,0 +1,30 @@
+
+User-agent: *
+Disallow: /cookies
+Disallow: /cookies/
+Disallow: /kontakt
+Disallow: /kontakt/
+Disallow: /podminky-a-zasady
+Disallow: /podminky-a-zasady/
+Disallow: /store
+Disallow: /store/
+Disallow: /ui
+Disallow: /ui/
+Disallow: /o-nas
+Disallow: /o-nas/
+Disallow: /404
+Disallow: /404/
+Disallow: /remote-pracovni-nabidky/presmerovani
+Disallow: /remote-pracovni-nabidky/presmerovani/
+
+Disallow: /*/?*
+Disallow: /*?*
+
+Allow: /
+Allow: /*
+
+User-agent: Googlebot-Mobile 
+Allow: / 
+
+# Sitemap files
+Sitemap: https://www.praceremote.cz/sitemap.xml

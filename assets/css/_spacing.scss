@@ -1,0 +1,57 @@
+@import '~/assets/css/_variables.scss';
+
+$min: 1;
+$max: 6;
+
+//padding
+@for $i from $min through $max {
+    .p-#{$i} {
+        padding: #{$i / 2}rem !important;
+    }
+}
+
+@for $i from $min through $max {
+    .py-#{$i} {
+        padding: #{$i / 2}rem 0 !important;
+    }
+}
+
+@for $i from $min through $max {
+    .px-#{$i} {
+        padding: 0 #{$i / 2}rem !important;
+    }
+}
+
+//margin
+@for $i from $min through $max {
+    .m-#{$i} {
+        margin: #{$i / 2}rem !important;
+    }
+}
+
+@for $i from $min through $max {
+    .my-#{$i} {
+        margin: #{$i / 2}rem 0 !important;
+    }
+}
+
+@for $i from $min through $max {
+    .mx-#{$i} {
+        margin: 0 #{$i}rem !important;
+    }
+}
+
+@for $i from $min through $max {
+    .mb-#{$i} {
+        margin-bottom: #{$i}rem !important;
+    }
+}
+
+@for $i from $min through $max {
+    .mt-#{$i} {
+        margin-top: #{$i}rem !important;
+    }
+}
+.m-a{
+    margin: auto;
+}
